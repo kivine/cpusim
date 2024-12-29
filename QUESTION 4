@@ -1,0 +1,9 @@
+START:INP
+STA a
+INP
+CMA
+INC
+ADD a
+OUT
+HLT  
+a: .data 1 0
