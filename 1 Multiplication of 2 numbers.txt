@@ -1,0 +1,27 @@
+1 Multiplication of 2 numbers
+INP
+STA A
+STA const
+INP
+STA B
+LOOP:
+LDA B
+ADD decrement_1
+STA B
+SZA
+BUN CALCULATIONS
+BUN RESULT
+CALCULATIONS:
+LDA A
+ADD const
+STA A
+BUN LOOP
+RESULT:
+LDA A
+OUT
+HLT
+A:
+.data 10
+ B: .data 10
+const: data 10
+ decrement_1: .data 1-1

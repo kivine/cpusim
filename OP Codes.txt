@@ -1,0 +1,28 @@
+OP Codes
+
+Memory Reference
+0x0	AND
+0x1	ADD
+0x2	LDA
+0x3	STA
+0x4	BUN
+0x5	BSA
+0x6	ISZ
+
+Register reference
+0x7800	CLA	Clear AC
+0x7400	CLE	Clear E
+0x7200	CMA	Complement AC
+0x7100	CME	Complement E
+0x7080	CIR	Circulate Right
+0x7040	CIL	Circulate Left
+0x7020	INC	Increment AC
+0x7010	SPA	Skip if AC is Positive
+0x7008	SNA	Skip if AC is Negative
+0x7004	SZA	Skip if AC=0
+0x7002	SZE	Skip if E=0
+0x7001	HLT	Halt
+
+Input Output 
+0xF800	INP	Input
+0xF400	OUT	Output
